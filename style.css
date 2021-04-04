@@ -1,0 +1,186 @@
+
+/*intro premier carré */
+body{
+  background: #A8E0FF;
+  color: #A8E0FF;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+}
+
+.introduction{
+  background:#A8E0FF;
+  border :25px solid #FDFEFE;
+  border-radius: 10%;
+  text-align: center;
+  width: 785px;
+}
+
+#Impassionnate{
+  color: #FDFEFE;
+}
+#ihope{
+  marging-bottom: 20px;
+  color: #FDFEFE;
+}
+
+h1{
+  color: #FDFEFE;
+  margin: 20px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font: 35px Arial, Helvetica, sans-serif;
+  padding: 15px 15px;
+}
+
+#profile{
+  border-radius: 50%;
+  border: 7px solid #FDFEFE;
+  margin: 40px 40px;
+}
+
+
+/*titre*/
+h2{
+  font-family: 'Lora', serif;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  text-decoration: overline;
+  text-align: center;
+}
+
+/*h2:hover{
+  color: #A8E0FF;
+  transition: color 0.5s ease;
+  text-decoration: overline;
+} pour plustard*/
+
+/*rectangle élément*/
+.containers{
+  width: 850px;
+  margin: 40px auto;
+}
+
+.cards{
+  background: #FDFEFE;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10%;
+  margin : 20px 0px ;
+  text-align: center;
+  width: 750px;
+}
+
+li{
+  list-style: none;
+}
+
+/*éléments de la classe link*/
+.link{
+  background: black;
+  border :4px solid black;
+  border-radius: 37% ;
+  margin: 0px;
+  text-align: center;
+  width: 822px;
+
+}
+i{
+  color: #FDFEFE;
+  font-size: 100PX;
+
+}
+.items{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.items li {
+  display: inline;
+  padding: 10px;
+}
+
+
+
+/*responsive design*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .containers{
+    width: 700px;
+  }
+  .cards{
+    width: 600px;
+  }
+  h2{
+  font-size: 22px;
+  }
+  h1{
+    font-size: 55px;
+  }
+  body{
+    font-size: 16px;
+  }
+  .link{
+    width: 600px;
+  }
+  .introduction{
+    width: 650px;
+  }
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .containers{
+    width: 500px;
+  }
+ .cards{
+    width: 400px;
+  }
+  h2{
+  font-size: 20px;
+  }
+  h1{
+    font-size: 45px;
+  }
+  body{
+    font-size: 13px;
+  }
+  .link{
+    width: 400px;
+  }
+  .introduction{
+    width: 430px;
+  }
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .containers{
+    width: 300px;
+  }
+  .cards{
+    width: 200px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+  font-size: 17px;
+  }
+  body{
+    font-size: 10px;
+  }
+  .link{
+    width: 200px;
+  }
+  .introduction{
+    width: 220px;
+  }
+
+
+
+
+
+
